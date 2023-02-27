@@ -15,7 +15,7 @@ const getBranch = (request, response) => {
 	const limit = request.query.limit;
 	const offset = request.query.offset;
 	
-	pool.query('SELECT * FROM bank_branches where branch ILIKE $1 ORDER BY ifsc ASC LIMIT $2 OFFSET $3',[q, limit,offset],  (error, results) => {
+	pool.query('SELECT * FROM bank_branches where branch ILIKE $1 ORDER BY ifsc ASC LIMIT $2 OFFSET $3',['%'+q+'%', limit,offset],  (error, results) => {
 	  if (error) {
 		throw error
 	  }
@@ -32,7 +32,7 @@ const SearchbyValue = (request, response) => {
 	if (error) {
 		throw error
 	}
-	response.status(200).json.parse(results)
+	response.status(200).json(results.rows)
 })
 }
 
