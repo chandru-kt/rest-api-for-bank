@@ -1,11 +1,11 @@
 const Pool = require('pg').Pool
 const pool = new Pool({
-  user: 'bhoo',
-  host: '127.0.0.1',
-  database: 'bank_det',
-  password: 'root',
-  port: 5432,
-})
+	user: 'chan',
+	host: 'dpg-cfuc26arrk0c831npb1g-a.oregon-postgres.render.com',
+	database: 'bank_det',
+	password: 'l3AK61KAp0yrosaj2CFvDaiayUYkWTTD',
+	port: 5432,
+  })
 
 const getBranch = (request, response) => {
 
