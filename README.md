@@ -14,18 +14,23 @@ To fetch bank details, using the data given in the API’s query parameters.
 
 ![image](https://user-images.githubusercontent.com/94432813/221778708-46cc1ed4-ec37-4984-934c-83e37b53804d.png)
 
-Now create NESTapi in Nodejs with express
+### Now create NESTapi in Nodejs with express
+--db.js
+--index.js
 
-Check the created api with Postman
+### Check the created api with Postman
 
 ![image](https://user-images.githubusercontent.com/94432813/221780165-add8d798-c3c3-48d1-97ae-dbc0deafb29c.png)
 
-Create render account deploy the Nodejs in it with web service
+### Create render account deploy the Nodejs in it with web service
+
 ![image](https://user-images.githubusercontent.com/94432813/221779993-c9849fe3-23ec-4dda-a53f-f7223669537e.png)
 
-Now the deployed web is created(https://rest-api-for-bank.onrender.com/)
+### Now the deployed web is created(https://rest-api-for-bank.onrender.com/)
 
 ![image](https://user-images.githubusercontent.com/94432813/221780904-ca0b3fb2-b49a-46db-8348-9e47e7b08d7d.png)
+
+### Run
 
 Now can run the case 1(https://rest-api-for-bank.onrender.com/api/search?q=Mumbai&limit=2&offset=1)
 
