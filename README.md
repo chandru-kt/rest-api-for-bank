@@ -7,7 +7,7 @@ To fetch bank details, using the data given in the API’s query parameters.
 
 --Created a database bank_det and table name bank_branches
 --
---PGPASSWORD=l3AK61KAp0yrosaj2CFvDaiayUYkWTTD psql -h dpg-cfuc26arrk0c831npb1g-a.oregon-postgres.render.com -U chan bank_det
+--"PGPASSWORD=l3AK61KAp0yrosaj2CFvDaiayUYkWTTD psql -h dpg-cfuc26arrk0c831npb1g-a.oregon-postgres.render.com -U chan bank_det"
 
 --Using above code in kali-linux terminal to alter,update,delete,insert table with query
 
