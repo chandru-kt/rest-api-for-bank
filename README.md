@@ -6,7 +6,7 @@ To fetch bank details, using the data given in the API’s query parameters.
 ### Created database in PostgreSQL
 
 
---Created a database bank_det and table name bank_branches
+--Created a database bank_det and table name bank_branches in Render
 
 --"PGPASSWORD=l3AK61KAp0yrosaj2CFvDaiayUYkWTTD psql -h dpg-cfuc26arrk0c831npb1g-a.oregon-postgres.render.com -U chan bank_det"
 
